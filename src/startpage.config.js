@@ -1,16 +1,16 @@
 const config = {
-	username: "Excalith",
+	username: "Schmodin",
 	terminal: {
 		fixedheight: true,
-		backgroundcolor: "#121317",
-		windowcolor: "#1e212b",
-		glowcolor: "none"
+		backgroundcolor: "#131510",
+		windowcolor: "#211A10",
+		glowcolor: "#A26B35"
 	},
 	prompt: {
 		ctrlc: true,
 		usercolor: "green",
-		atcolor: "gray",
-		hostcolor: "magenta",
+		atcolor: "purple",
+		hostcolor: "red",
 		promptcolor: "magenta",
 		promptsymbol: "❯",
 		caretcolor: "green",
@@ -20,14 +20,19 @@ const config = {
 	colors: {
 		white: "#e2e2e2",
 		gray: "#97989d",
-		black: "#16161e",
-		red: "#ec6183",
-		green: "#2ed8a2",
-		yellow: "#e8b195",
+		black: "#070606",
+		red: "#F14A68",
+		green: "#889B4A",
+		yellow: "#F79A32",
 		blue: "#2bc3de",
-		cyan: "#62e0e2",
-		magenta: "#e069aa",
-		purple: "#d1aff8"
+		cyan: "#418292",
+		magenta: "#98676A",
+		purple: "#BD6EC6"
+	},
+	nfetch: {
+		timeformat: "HH:mm",
+		dateformat: "DD/MM/YYYY",
+		titlecolor: "yellow"
 	},
 	search: {
 		default: "https://google.com/search?q=",
@@ -62,181 +67,181 @@ const config = {
 	],
 	sections: [
 		{
-			title: "General",
-			color: "green",
+			title: "Social",
+			color: "blue",
 			links: [
 				{
-					name: "Portfolio",
-					url: "https://cancellek.com",
-					icon: "mdi:web",
+					name: "Instagram",
+					url: "https://www.instagram.com/",
+					icon: "simple-icons:instagram",
 					target: "_blank"
 				},
 				{
-					name: "Keybase",
-					url: "https://keybase.io/",
-					icon: "fa-brands:keybase",
+					name: "Gmail",
+					url: "https://mail.google.com/mail/u/0/#inbox",
+					icon: "simple-icons:gmail",
 					target: "_blank"
 				},
 				{
-					name: "GPT",
-					url: "https://chat.openai.com/",
-					icon: "simple-icons:openai",
+					name: "Drive",
+					url: "https://drive.google.com/drive/my-drive",
+					icon: "simple-icons:googledrive",
 					target: "_blank"
 				},
 				{
-					name: "OCI",
-					url: "https://www.oracle.com/cloud/",
-					icon: "simple-icons:oracle",
+					name: "Twitter",
+					url: "https://twitter.com/home",
+					icon: "simple-icons:twitter",
 					target: "_blank"
 				}
 			]
 		},
 		{
-			title: "Dev",
+			title: "News",
 			color: "magenta",
 			links: [
 				{
-					name: "GitHub",
-					url: "https://github.com",
-					icon: "mdi:github",
+					name: "NRK",
+					url: "https://www.nrk.no/",
+					icon: "material-symbols:newspaper",
 					target: "_blank"
 				},
 				{
-					name: "GitLab",
-					url: "https://gitlab.com",
-					icon: "ph:gitlab-logo-simple-fill",
+					name: "TEKno",
+					url: "https://www.tek.no/",
+					icon: "mdi:power",
 					target: "_blank"
 				},
 				{
-					name: "Dev.to",
-					url: "https://dev.to",
-					icon: "material-symbols:logo-dev",
+					name: "UXno",
+					url: "https://uxnorge.no/",
+					icon: "mdi:newspaper-variant",
 					target: "_blank"
 				},
 				{
-					name: "Stack Overflow",
-					url: "https://stackoverflow.com/",
-					icon: "mdi:stack-overflow",
+					name: "Wowhead",
+					url: "https://www.wowhead.com/",
+					icon: "material-symbols:rocket-launch",
 					target: "_blank"
 				}
 			]
 		},
 		{
-			title: "Social",
+			title: "Education",
 			color: "purple",
 			links: [
 				{
-					name: "Twitter",
-					url: "https://twitter.com",
-					icon: "mdi:twitter",
+					name: "MineStudier",
+					url: "https://minestudier.uio.no/student",
+					icon: "mdi:school",
 					target: "_blank"
 				},
 				{
-					name: "Mastodon",
-					url: "https://mastodon.social/",
-					icon: "ri:mastodon-fill",
+					name: "Devilry",
+					url: "https://devilry.ifi.uio.no/devilry_student/",
+					icon: "mdi:emoticon-devil",
 					target: "_blank"
 				},
 				{
-					name: "Reddit",
-					url: "https://reddit.com",
-					icon: "mdi:reddit",
+					name: "UiOMail",
+					url: "https://mail.uio.no/owa/#path=/mail",
+					icon: "material-symbols:mail",
 					target: "_blank"
 				},
 				{
-					name: "Polywork",
-					url: "https://polywork.com",
-					icon: "simple-icons:polywork",
+					name: "QuickNote",
+					url: "https://www.notion.so/Quick-Note-4e50c295a88a4ba2870eada41238f153",
+					icon: "mdi:book-edit",
 					target: "_blank"
 				}
 			]
 		},
 		{
-			title: "Gaming",
-			color: "cyan",
+			title: "4chan",
+			color: "green",
 			links: [
 				{
-					name: "Polygon",
-					url: "https://polygon.com",
-					icon: "uil:polygon",
+					name: "Technology",
+					url: "https://boards.4channel.org/g",
+					icon: "mdi:laptop",
 					target: "_blank"
 				},
 				{
-					name: "IGN",
-					url: "https://ign.com",
-					icon: "mdi:currency-sign",
+					name: "Fashion",
+					url: "https://boards.4channel.org/fa",
+					icon: "mdi:hanger",
 					target: "_blank"
 				},
 				{
-					name: "RPS",
-					url: "https://rockpapershotgun.com/",
+					name: "GraphicDesign",
+					url: "https://boards.4channel.org/gd",
 					icon: "ph:toilet-paper-bold",
 					target: "_blank"
 				},
 				{
-					name: "80lv",
-					url: "https://80.lv/",
-					icon: "tabler:hand-rock",
+					name: "Music",
+					url: "https://boards.4channel.org/mu",
+					icon: "mdi:music",
 					target: "_blank"
 				}
 			]
 		},
 		{
-			title: "Science",
-			color: "blue",
+			title: "Stores",
+			color: "cyan",
 			links: [
 				{
-					name: "PopSci",
-					url: "https://popsci.com/",
-					icon: "material-symbols:science",
+					name: "Shoppinglist",
+					url: "https://www.notion.so/Shopping-list-b0326d53dcea46268abe23496c37cb3b",
+					icon: "mdi:format-list-checks",
 					target: "_blank"
 				},
 				{
-					name: "Space",
-					url: "fa6-solid:user-astronaut",
-					icon: "mdi:reddit",
+					name: "FINN",
+					url: "https://www.finn.no/",
+					icon: "mdi:store",
 					target: "_blank"
 				},
 				{
-					name: "NASA",
-					url: "https://blogs.nasa.gov/",
-					icon: "simple-icons:nasa",
+					name: "Aliexpress",
+					url: "https://www.aliexpress.com/",
+					icon: "mdi:shopping",
 					target: "_blank"
 				},
 				{
-					name: "ESA",
-					url: "https://blogs.esa.int/",
-					icon: "mdi:black-mesa",
+					name: "Zalando",
+					url: "https://www.zalando.no/herre-home/",
+					icon: "simple-icons:zalando",
 					target: "_blank"
 				}
 			]
 		},
 		{
-			title: "Tech",
+			title: "Reddit",
 			color: "yellow",
 			links: [
 				{
-					name: "TechCrunch",
-					url: "https://techcrunch.com/",
-					icon: "game-icons:techno-heart",
+					name: "Favorites",
+					url: "https://www.reddit.com/user/itsneebs/m/favorites/",
+					icon: "mdi:heart-box",
 					target: "_blank"
 				},
 				{
-					name: "Verge",
-					url: "https://www.theverge.com/",
-					icon: "arcticons:verge",
+					name: "Norge",
+					url: "https://www.reddit.com/r/norge/",
+					icon: "material-symbols:flag",
 					target: "_blank"
 				},
 				{
-					name: "It's Foss",
-					url: "https://itsfoss.com/",
-					icon: "ri:mastodon-fill",
+					name: "HipHopHeads",
+					url: "https://www.reddit.com/r/hiphopheads/",
+					icon: "mdi:microphone-variant",
 					target: "_blank"
 				},
 				{
-					name: "9To5 Linux",
-					url: "https://9to5linux.com/",
-					icon: "uil:linux",
+					name: "WorldOfWarcraft",
+					url: "https://www.reddit.com/r/wow/",
+					icon: "game-icons:battle-gear",
 					target: "_blank"
 				}
 			]
