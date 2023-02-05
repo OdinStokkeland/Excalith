@@ -74,25 +74,25 @@ const config = {
 					name: "Instagram",
 					url: "https://www.instagram.com/",
 					icon: "simple-icons:instagram",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "Gmail",
 					url: "https://mail.google.com/mail/u/0/#inbox",
 					icon: "simple-icons:gmail",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "Drive",
 					url: "https://drive.google.com/drive/my-drive",
 					icon: "simple-icons:googledrive",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "Twitter",
 					url: "https://twitter.com/home",
 					icon: "simple-icons:twitter",
-					target: "_blank"
+					target: "_self"
 				}
 			]
 		},
@@ -104,25 +104,25 @@ const config = {
 					name: "NRK",
 					url: "https://www.nrk.no/",
 					icon: "material-symbols:newspaper",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "TEKno",
 					url: "https://www.tek.no/",
 					icon: "mdi:power",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "UXno",
 					url: "https://uxnorge.no/",
 					icon: "mdi:newspaper-variant",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "Wowhead",
 					url: "https://www.wowhead.com/",
 					icon: "material-symbols:rocket-launch",
-					target: "_blank"
+					target: "_self"
 				}
 			]
 		},
@@ -134,25 +134,25 @@ const config = {
 					name: "MineStudier",
 					url: "https://minestudier.uio.no/student",
 					icon: "mdi:school",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "Devilry",
 					url: "https://devilry.ifi.uio.no/devilry_student/",
 					icon: "mdi:emoticon-devil",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "UiOMail",
 					url: "https://mail.uio.no/owa/#path=/mail",
 					icon: "material-symbols:mail",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "QuickNote",
 					url: "https://www.notion.so/Quick-Note-4e50c295a88a4ba2870eada41238f153",
 					icon: "mdi:book-edit",
-					target: "_blank"
+					target: "_self"
 				}
 			]
 		},
@@ -164,25 +164,25 @@ const config = {
 					name: "Technology",
 					url: "https://boards.4channel.org/g",
 					icon: "mdi:laptop",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "Fashion",
 					url: "https://boards.4channel.org/fa",
 					icon: "mdi:hanger",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "GraphicDesign",
 					url: "https://boards.4channel.org/gd",
 					icon: "ph:toilet-paper-bold",
-					target: "_blank"
+					target: "_selfk"
 				},
 				{
 					name: "Music",
 					url: "https://boards.4channel.org/mu",
 					icon: "mdi:music",
-					target: "_blank"
+					target: "_self"
 				}
 			]
 		},
@@ -194,25 +194,25 @@ const config = {
 					name: "Shoppinglist",
 					url: "https://www.notion.so/Shopping-list-b0326d53dcea46268abe23496c37cb3b",
 					icon: "mdi:format-list-checks",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "FINN",
 					url: "https://www.finn.no/",
 					icon: "mdi:store",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "Aliexpress",
 					url: "https://www.aliexpress.com/",
 					icon: "mdi:shopping",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "Zalando",
 					url: "https://www.zalando.no/herre-home/",
 					icon: "simple-icons:zalando",
-					target: "_blank"
+					target: "_self"
 				}
 			]
 		},
@@ -224,25 +224,25 @@ const config = {
 					name: "Favorites",
 					url: "https://www.reddit.com/user/itsneebs/m/favorites/",
 					icon: "mdi:heart-box",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "Norge",
 					url: "https://www.reddit.com/r/norge/",
 					icon: "material-symbols:flag",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "HipHopHeads",
 					url: "https://www.reddit.com/r/hiphopheads/",
 					icon: "mdi:microphone-variant",
-					target: "_blank"
+					target: "_self"
 				},
 				{
 					name: "WorldOfWarcraft",
 					url: "https://www.reddit.com/r/wow/",
 					icon: "game-icons:battle-gear",
-					target: "_blank"
+					target: "_self"
 				}
 			]
 		}
