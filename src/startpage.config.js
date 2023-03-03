@@ -233,8 +233,8 @@ const config = {
 					target: "_self"
 				},
 				{
-					name: "HipHopHeads",
-					url: "https://www.reddit.com/r/hiphopheads/",
+					name: "Diablo",
+					url: "https://www.reddit.com/r/Diablo/",
 					icon: "mdi:microphone-variant",
 					target: "_self"
 				},
