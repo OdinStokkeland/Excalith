@@ -63,6 +63,11 @@ const config = {
 			alias: "w",
 			name: "Wikipedia Search",
 			url: "https://en.wikipedia.org/wiki/{}"
+		},
+		{
+			alias: "y",
+			name: "Youtube Search",
+			url: "https://youtube.com/search?q={}"
 		}
 	],
 	sections: [
@@ -70,6 +75,12 @@ const config = {
 			title: "Social",
 			color: "blue",
 			links: [
+				{
+					name: "Youtube/YT",
+					url: "https://www.youtube.com/feed/subscriptions",
+					icon: "simple-icons:youtube",
+					target: "_self"
+				},
 				{
 					name: "Instagram",
 					url: "https://www.instagram.com/",
@@ -80,12 +91,6 @@ const config = {
 					name: "Gmail",
 					url: "https://mail.google.com/mail/u/0/#inbox",
 					icon: "simple-icons:gmail",
-					target: "_self"
-				},
-				{
-					name: "Drive",
-					url: "https://drive.google.com/drive/my-drive",
-					icon: "simple-icons:googledrive",
 					target: "_self"
 				},
 				{
@@ -137,15 +142,15 @@ const config = {
 					target: "_self"
 				},
 				{
-					name: "Devilry",
-					url: "https://devilry.ifi.uio.no/devilry_student/",
-					icon: "mdi:emoticon-devil",
+					name: "Drive",
+					url: "https://drive.google.com/drive/my-drive",
+					icon: "simple-icons:googledrive",
 					target: "_self"
 				},
 				{
-					name: "UiOMail",
-					url: "https://mail.uio.no/owa/#path=/mail",
-					icon: "material-symbols:mail",
+					name: "Docs",
+					url: "https://docs.google.com/document/u/0/",
+					icon: "mdi-file-document",
 					target: "_self"
 				},
 				{
