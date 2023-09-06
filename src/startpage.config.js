@@ -118,15 +118,15 @@ const config = {
 					target: "_self"
 				},
 				{
-					name: "UXno",
-					url: "https://uxnorge.no/",
+					name: "Reuters",
+					url: "https://www.reuters.com/",
 					icon: "mdi:newspaper-variant",
 					target: "_self"
 				},
 				{
-					name: "Wowhead",
-					url: "https://www.wowhead.com/",
-					icon: "material-symbols:rocket-launch",
+					name: "UXnorge",
+					url: "https://uxnorge.no/",
+					icon: "mdi:head-dots-horizontal-outline",
 					target: "_self"
 				}
 			]
@@ -178,9 +178,9 @@ const config = {
 					target: "_self"
 				},
 				{
-					name: "GraphicDesign",
-					url: "https://boards.4channel.org/gd",
-					icon: "ph:toilet-paper-bold",
+					name: "DIY",
+					url: "https://boards.4channel.org/diy",
+					icon: "mdi:tools",
 					target: "_selfk"
 				},
 				{
@@ -198,7 +198,7 @@ const config = {
 				{
 					name: "Shoppinglist",
 					url: "https://www.notion.so/Shopping-list-b0326d53dcea46268abe23496c37cb3b",
-					icon: "mdi:format-list-checks",
+					icon: "mdi:cart-outline",
 					target: "_self"
 				},
 				{
@@ -214,9 +214,9 @@ const config = {
 					target: "_self"
 				},
 				{
-					name: "Zalando",
-					url: "https://www.zalando.no/herre-home/",
-					icon: "simple-icons:zalando",
+					name: "ClasOhlson",
+					url: "https://www.clasohlson.com/no/",
+					icon: "mdi:toolbox",
 					target: "_self"
 				}
 			]
@@ -238,15 +238,15 @@ const config = {
 					target: "_self"
 				},
 				{
-					name: "Diablo",
-					url: "https://www.reddit.com/r/Diablo/",
-					icon: "mdi:microphone-variant",
+					name: "Starfield",
+					url: "https://www.reddit.com/r/Starfield+starfieldmods",
+					icon: "mdi:moon-new",
 					target: "_self"
 				},
 				{
-					name: "WorldOfWarcraft",
-					url: "https://www.reddit.com/r/wow/",
-					icon: "game-icons:battle-gear",
+					name: "EDC",
+					url: "https://www.reddit.com/r/EDC/",
+					icon: "mdi:box-cutter",
 					target: "_self"
 				}
 			]
